@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { font-size: 112.5%; scroll-behavior: smooth; }
+body {
+	margin: 0;
+	font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	color: #e6eef8;
+	background: radial-gradient(1200px 400px at 10% 10%, rgba(255,255,255,0.02), transparent), linear-gradient(180deg,#08080a 0%, #0f1113 100%);
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+
+/* container: Tailwind's max-w-7xl (80rem) + consistent padding px-6 */
+.container { max-width: 80rem; margin-left: auto; margin-right: auto; padding-left: 1.5rem; padding-right: 1.5rem }
+
