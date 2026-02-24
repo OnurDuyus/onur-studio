@@ -133,7 +133,7 @@ function Footer() {
   return (
     <footer className="py-8">
       <div className="container flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-400">
-        <div>© {new Date().getFullYear()} AcmeCorp. All rights reserved.</div>
+        <div>© {new Date().getFullYear()} © 2026 Onur Studio. All rights reserved.</div>
         <div className="flex gap-4">
           <a href="#" className="hover:text-slate-200">Twitter</a>
           <a href="#" className="hover:text-slate-200">LinkedIn</a>
