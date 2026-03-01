@@ -2,9 +2,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const testimonials = [
-  { name: 'Jane D.', role: 'CEO, Startup', text: 'AcmeCorp helped us double conversion rates with a clean rebuild.' },
-  { name: 'Mark T.', role: 'Product Lead', text: 'Fast, reliable, and delightful to work with.' },
-  { name: 'Sofia R.', role: 'Founder', text: 'Professional team that shipped ahead of schedule.' }
+  { name: 'Ayşe K.', role: 'CEO, Startup', text: 'Onur Studio, dönüşüm oranlarımızı iki katına çıkarmamıza yardımcı oldu. Temiz ve hızlı bir yeniden yapılanma.' },
+  { name: 'Mert T.', role: 'Ürün Yöneticisi', text: 'Hızlı, güvenilir ve çalışması keyifli biri. Kesinlikle tavsiye ederim.' },
+  { name: 'Selin R.', role: 'Kurucu', text: 'Takvimin önde teslim eden, profesyonel ve özgün çözümler üreten bir ekip.' }
 ]
 
 function Stars() {
@@ -19,7 +19,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="py-12 md:py-16">
       <div className="container">
-        <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-2xl font-semibold mb-6 text-white">Testimonials</motion.h2>
+        <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="text-2xl font-semibold mb-6 text-white">Referanslar</motion.h2>
         <div className="grid md:grid-cols-3 gap-4">
           {testimonials.map((t) => (
             <motion.blockquote
